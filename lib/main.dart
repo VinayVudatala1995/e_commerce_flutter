@@ -1,3 +1,5 @@
+import 'package:e_commerce_flutter/check_box.dart';
+import 'package:e_commerce_flutter/sign_up_form.dart';
 import 'package:flutter/material.dart';
 
 import 'Login.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const Login(),
+      home: MyCheckboxWidget(),
     );
   }
 }
